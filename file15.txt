@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 file fifteen
+=======
+modified one time
+>>>>>>> ftr
