@@ -1,0 +1,23 @@
+[include]
+	path = .util/gitconfig
+[user]
+	name = Jake Zimmerman
+	email = zimmerman.jake@gmail.com
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[mergetool "vimdiff"]
+	path = nvim
+
+# --- Added by Stripe IT department ---
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[github]
+	user = jez
+[ghi]
+	token = !security find-internet-password -a jez -s github.com -l 'ghi token' -w
+[hub]
+	host = git.corp.stripe.com

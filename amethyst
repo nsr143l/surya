@@ -1,0 +1,44 @@
+{
+  "-other-layouts": [
+    "tall-right",
+    "middle-wide",
+    "widescreen-tall"
+  ],
+
+  "layouts": [
+    "tall",
+    "fullscreen"
+  ],
+
+  "focus-ccw": {
+      "mod": "mod1",
+      "key": "k"
+  },
+  "focus-cw": {
+      "mod": "mod1",
+      "key": "j"
+  },
+
+  "swap-ccw": {
+      "mod": "mod2",
+      "key": "k"
+  },
+  "swap-cw": {
+      "mod": "mod2",
+      "key": "j"
+  },
+
+  "focus-screen-1": {
+    "mod": "mod1",
+    "key": "o"
+  },
+  "focus-screen-2": {
+    "mod": "mod1",
+    "key": "p"
+  },
+
+  "focus-follows-mouse": false,
+  "enables-layout-hud": false,
+  "enables-layout-hud-on-space-change": false
+}
+
