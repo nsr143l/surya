@@ -1,0 +1,9 @@
+[include]
+	path = .util/gitconfig
+[user]
+	name = Jake Zimmerman
+	email = jakez@dropbox.com
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple

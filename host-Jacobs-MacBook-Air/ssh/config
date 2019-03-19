@@ -1,0 +1,96 @@
+# ----- Personal ----- {{{
+  Host ghost
+  Hostname ghost.zimmerman.io
+  User jake
+# }}}
+
+# ----- CMU ----- {{{
+  Host *.cmu.edu andrew gates databases shark greatwhite milkshark gpi
+  User jezimmer
+  GSSAPIAuthentication yes
+  GSSAPIDelegateCredentials yes
+
+  # --- CMU General --- {{{
+    Host andrew
+    Hostname unix.andrew.cmu.edu
+
+    Host gates
+    Hostname ghc50.ghc.andrew.cmu.edu
+
+    Host databases
+    Hostname ghc74.ghc.andrew.cmu.edu
+
+    Host shark
+    Hostname shark.ics.cs.cmu.edu
+
+    Host blacklight
+    User zimmermj
+    Hostname blacklight.psc.teragrid.org
+  # }}}
+
+  # --- Autolab --- {{{
+    Host greatwhite
+    Hostname greatwhite.ics.cs.cmu.edu
+
+    Host milkshark
+    Hostname milkshark.ics.cs.cmu.edu
+  # }}}
+
+  # --- GPI --- {{{
+    Host lern2unix
+    Hostname www.lern2unix.com
+    User jezimmer
+
+    Host gpi
+    Hostname gpi01.ugrad.cs.cmu.edu
+  # }}}
+# }}}
+
+# ----- ScottyLabs ----- {{{
+  Host sl-unix sl-cclub
+  User jake
+
+  Host sl-unix
+  Hostname unix.scottylabs.org
+
+  Host sl-cclub
+  Hostname scottylabs
+
+  # --- Old Servers --- {{{
+    Host sl-secure
+    User jake
+
+    Host sl-secure
+    Hostname secure.scottylabs.org
+
+    # gitolite config
+    Host sl-dev-git sl-secure-git
+    User git
+    IdentityFile "/Users/Jake/.ssh/id_rsa"
+    IdentitiesOnly yes
+
+    Host sl-dev-git
+    Hostname unix.scottylabs.org
+    Host sl-secure-git
+    Hostname secure.scottylabs.org
+  # }}}
+# }}}
+
+# ----- Deprecated ----- {{{
+  Host heroku.personal
+  Hostname heroku.com
+  IdentityFile "/Users/Jake/.ssh/id_rsa"
+  IdentitiesOnly yes
+
+  Host heroku.scottylabs
+  Hostname heroku.com
+  IdentityFile /Users/Jake/.ssh/identity.heroku.scottylabs
+  IdentitiesOnly yes
+
+  Host heroku.gitorial
+  Hostname heroku.com
+  IdentityFile "/Users/Jake/.ssh/identity.heroku.gitorial"
+  IdentitiesOnly yes
+# }}}
+
+# vim:fdm=marker

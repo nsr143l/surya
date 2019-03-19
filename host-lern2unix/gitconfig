@@ -1,0 +1,9 @@
+[include]
+	path = .util/gitconfig
+[user]
+	name = Jacob Zimmerman
+	email = jezimmer@andrew.cmu.edu
+[credential]
+	helper = cache
+[push]
+	default = current
