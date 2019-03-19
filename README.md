@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jez does dotfiles
 
 [![xkcd: Automation](http://imgs.xkcd.com/comics/automation.png)](http://xkcd.com/1319/)
@@ -65,3 +66,10 @@ MIT License. See LICENSE.
 [bezi]: https://github.com/bezi
 [tomshen]: https://github.com/tomshen
 [holman]: https://github.com/holman
+=======
+<<<<<<< HEAD
+# SampleApp
+=======
+# naveensupermaan
+>>>>>>> daf6705ef623333576d326c5be1afce476ac6a17
+>>>>>>> 9aa887dbfc4d1ebb6dc43bd87ac16c0065ec669e
